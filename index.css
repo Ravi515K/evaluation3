@@ -1,0 +1,37 @@
+/* Fill CSS here */
+h1{
+    display:flex;
+    justify-content: center;
+    color:blue;
+    
+}
+  div{
+      margin-left: 50px;
+      display:flex;
+  }
+  table{
+      /* border:1px solid red; */
+      width:70%;
+      /* height:50px; */
+     font-size:15px;
+     margin-left: 80px;;
+  }
+   tr>th{
+       border:1px solid black;
+       text-align: center;
+       width:70px;
+       background-color: blue;
+       color: white;
+   }
+   tr>th:nth-child(4){
+       width:100px;
+   }
+ input:last-child {
+     margin-left: 00px;
+      width: 170px;
+      border-radius: 5px;
+      margin-top:10px ;
+      background-color: blue;
+      color:white;
+  }
+ 
